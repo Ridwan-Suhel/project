@@ -1,0 +1,310 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: arial;
+}
+/*reusable style start here*/
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+.title-text{
+	background: #BD318A;
+	margin-bottom: 20px;
+}
+.title-text h2{
+	font-size: 20px;
+	color: #fff;
+	padding: 5px;
+}
+p{
+	font-size: 16px;
+}
+/*reusable style end here*/
+.card-inputs,
+.common-inputs{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	margin: 20px 0px;
+	align-items: center;
+
+}
+.input-caption{
+	width: 165px;
+}
+.row{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.row .wrapper{
+	width: 155px;
+}
+.row input[type=checkbox]{
+	transform: scale(1.5);
+}
+.row input,
+.row label{
+	margin: 0px 5px;
+}
+.info-inputs .wrapper:last-child{
+	width: 424px;
+
+}
+.info-inputs .wrapper input[type=text]{
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+}
+.f-name-input{
+	width: 100%;
+	position: relative;
+}
+.f-name input{
+	width: 100%;
+	padding: 10px;
+
+}
+/*.f-name-input:before{}*/
+.f-name-bottom .input-caption {
+    width: 144px;
+}
+.f-bottom-input {
+    width: 65%;
+}
+.f-name-bottom .f-bottom-input input{
+	width: 100%;
+	padding: 10px;
+}
+.content{
+	margin-top: 20px;
+}
+.f-btm-right{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	margin-left: 20px;
+}
+.f-btm-right .right-wrpper{
+	margin: 0px 10px;
+}
+.d-birth,
+.m-status{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+}
+.d-birth input{
+	padding: 10px;
+}
+.m-status{
+	margin-left: 30px;
+}
+.m-input{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+}
+#m_input {
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+}
+.father-name .input-caption,
+.mother-name .input-caption{
+	width: 169px;
+}
+.father-name-input,
+.mother-name-input{
+	width: 100%;
+}
+.father-name-input input,
+.mother-name-input input{
+	width: 99.5%;
+	padding: 10px;
+}
+
+/*nation style*/
+.nation_rel,
+.passport-area{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.nation-info{
+	width: 60%;
+}
+
+.nation-info .input-caption {
+    width: 146px;
+}
+.n-input{
+    width: 80%;
+}
+.nation-info .n-input input,
+.passport-info .p-input input{
+	padding: 10px;
+	width: 100%;
+}
+.rel-info,
+.p-issue {
+    margin-left: 0px;
+    width: 38%;
+}
+.rel-info .input-caption{
+	width: 144px;
+}
+.rel-info input,
+.p-issue input{
+	width: 100%;
+	padding: 10px;
+}
+.passport-info .input-caption{
+	width: 240px;
+}
+.passport-area{
+	margin-top: 20px;
+}
+.passport-info{
+	width: 60%;
+}
+.p-input{
+    width: 60%;
+}
+.p-issue .input-caption {
+    width: 250px;
+}
+.p-expiary{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	width: 40%;
+}
+.p-expiary input{
+	padding: 10px;
+	width: 100%;
+}
+.content .row{
+	justify-content: space-between;
+}
+.district-b{
+	width: 38%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+}
+.square{
+	width: 30px;
+	height: 30px;
+	background: #000;
+	margin-right: 10px;
+}
+.district-b input{
+	width: 64%;
+	padding: 10px;
+}
+.p-expiary .input-caption{
+	width: 220px;
+}
+
+.previous-cap{
+	width: 300px;
+}
+ /*tin-nid area*/
+.tin-nid .row{
+	justify-content: space-between;
+}
+.tin,
+.nid{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	width: 40%;
+}
+.tin input{
+	padding: 10px;
+	width: 68%;
+}
+.nid{
+	width: 50%;
+}
+.nid .input-caption {
+    width: 152px;
+}
+.nid input{
+	width: 100%;
+	padding: 10px;
+}
+
+.quali-inputs{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+}
+.quali-inputs .input-caption{
+	width: 240px;
+}
+.q_input{
+	width: 16%;
+	padding: 10px;
+}
+.professional-d{
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+.p-d-inputs{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+}
+.p_d_input{
+	padding: 10px;
+	width: 50%;
+}
+
+
+
+
+
+
+
